@@ -13,6 +13,26 @@
 
 ---
 
+## Mục Lục Báo Cáo
+
+- Mục Thông tin Chung
+- Mục 1. Phần một — Thiết kế và Thực thi GUI Checklist
+  - Mục 1.1. Mục tiêu và Phương pháp luận
+  - Mục 1.2. Thống kê Kết quả Thực thi
+  - Mục 1.3. Tổng hợp các Lỗi Giao diện Trọng yếu
+- Mục 2. Phần hai — Đánh giá Trải nghiệm Người dùng
+  - Mục 2.1. Thiết lập Kịch bản Nhiệm vụ
+  - Mục 2.2. Danh sách Bảy Người tham gia Thực tế
+  - Mục 2.3. Phân tích Định lượng Thang đo SUS
+  - Mục 2.4. Phân nhóm Điểm đau và Tách biệt Bản chất Lỗi
+- Mục 3. Phần ba — Kiểm thử Tương thích Đa nền tảng
+  - Mục 3.1. Phạm vi Môi trường Kiểm thử
+  - Mục 3.2. Đánh giá Khả năng Tương thích
+- Mục 4. Phần bốn — Xây dựng Kỹ năng Tự động hóa Agent Skills
+- Mục 5. Bảng Tự Đánh giá Kết quả
+
+---
+
 ## 1. Phần một — Thiết kế và Thực thi GUI Checklist
 
 ### 1.1. Mục tiêu và Phương pháp luận
@@ -113,3 +133,4 @@ Mỗi môi trường đều được thu thập đầy đủ năm ảnh chụp m
 | 3 | Nhiệm vụ ba — Cross-Browser và Cross-Platform | 20 | 20 | Kiểm thử trên ba nền tảng Chrome, Firefox và Mobile, chụp 15 ảnh bằng chứng có watermark sinh viên và lập ma trận tương thích |
 | 4 | Kỹ năng Agent Skills | 10 | 10 | Xây dựng hai kỹ năng hoàn chỉnh tái sử dụng được kèm tài liệu hướng dẫn và các lược đồ tham chiếu chuẩn |
 | Tổng | Toàn bộ Đồ án | 100 | 100 | Hoàn thành trọn vẹn toàn bộ các yêu cầu quy định trong đề bài |
+
