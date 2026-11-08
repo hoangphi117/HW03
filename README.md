@@ -1,49 +1,68 @@
-# HW03 – GUI & Usability Testing
+# HW03 — GUI và Usability Testing
 
-**Student ID:** [Mã Số Sinh Viên]  
-**Full Name:** [Họ và Tên Sinh Viên]  
-**Email:** [Email Sinh Viên]  
-**Class / Course:** Software Testing (Kiểm thử phần mềm)  
-**SUT (System Under Test):** EShop - [https://github.com/ttbhanh/eshop-sut](https://github.com/ttbhanh/eshop-sut)  
-**Selected Flow:** `FR-05` (Search & Listing) $\rightarrow$ `FR-06` (Product Detail) $\rightarrow$ `FR-07` (Cart) $\rightarrow$ `FR-09` (Coupons) $\rightarrow$ `FR-08` (Checkout) $\rightarrow$ `FR-11` (Order History)
+- Mã số sinh viên: 23120320  
+- Họ và tên: Phi  
+- Email: 23120320@student.hcmus.edu.vn  
+- Môn học: Kiểm thử phần mềm — FIT HCMUS  
+- Hệ thống SUT: EShop — https://github.com/ttbhanh/eshop-sut  
+- Luồng kiểm thử: FR-05 Search và Listing đến FR-06 Product Detail đến FR-07 Cart đến FR-09 Coupons đến FR-08 Checkout đến FR-11 Order History
 
 ---
 
-## 1. Test Summary Report
+## 1. Báo cáo Tổng kết Kiểm thử — Test Summary Report
 
-| Metric | Value |
+| Chỉ số | Giá trị |
 | :--- | :--- |
-| **Number of Screens / Flows Tested** | 6 screens across 1 E2E user flow |
-| **Checklist Items Designed** | 0 (Target: > 40 items) |
-| **Checklist Items Executed** | 0 |
-| **Checklist Items Passed** | 0 |
-| **Checklist Items Failed** | 0 |
-| **Number of Discovered Bugs** | 0 |
-| **Number of Usability Participants** | 7 real participants (Session 1-7) |
-| **Platforms Covered** | 3 (Chrome, Firefox, Mobile/Safari) |
-| **Demo Video Links** | [YouTube Link Placeholder] |
+| Số màn hình và luồng kiểm thử | 6 màn hình xuyên suốt 1 luồng người dùng hoàn chỉnh |
+| Số lượng ca kiểm thử checklist thiết kế | 42 ca kiểm thử, vượt quy định tối thiểu 40 ca |
+| Số lượng ca kiểm thử checklist thực thi | 42 trên 42 ca kiểm thử, đạt 100 phần trăm |
+| Số lượng ca kiểm thử đạt | 20 ca kiểm thử, chiếm 47.6 phần trăm |
+| Số lượng ca kiểm thử không đạt | 22 ca kiểm thử, chiếm 52.4 phần trăm |
+| Số lượng lỗi phát hiện | 22 lỗi thực tế, đã tạo GitHub Issues từ số 1 đến số 23 |
+| Số ảnh chụp màn hình bằng chứng lỗi | 25 ảnh trên 22 ca lỗi bao gồm cả chuỗi hành động liên tiếp |
+| Số người tham gia đánh giá Usability | 7 người tham gia thật ngoài ngành với email xác thực |
+| Điểm số SUS trung bình | 62.14 trên 100 điểm, Hạng F, mức Poor |
+| Tỷ lệ hoàn thành nhiệm vụ Usability | 71.4 phần trăm, 5 người hoàn thành và 2 người thất bại |
+| Số nền tảng kiểm thử tương thích | 3 nền tảng gồm Desktop Chrome, Desktop Firefox, Mobile Browser |
+| Số ảnh bằng chứng đa nền tảng | 15 ảnh chụp màn hình có watermark thông tin sinh viên |
+| Liên kết video minh họa | Đính kèm trong hồ sơ nộp bài |
 
 ---
 
-## 2. Self-Assessment Table (Section 15)
+## 2. Bảng Tự Đánh giá Kết quả — Self-Assessment Table
 
-| No. | Criteria | Max Grade | Self-Assessed Grade | Notes / Justification |
+| STT | Tiêu chí Đánh giá | Điểm Tối đa | Điểm Tự đánh giá | Giải trình Minh chứng |
 | :---: | :--- | :---: | :---: | :--- |
-| **1** | Task 1 — GUI Checklist (design + execution + bug report) | 30 | 0 | In progress |
-| **2** | Task 2 — Usability Evaluation (task scenario + 7 sessions + analysis) | 40 | 0 | Pending execution |
-| **3** | Task 3 — Cross-Browser / Cross-Platform ($\ge$ 3 platforms) | 20 | 0 | Pending execution |
-| **4** | Agent Skills | 10 | 0 | Pending execution |
-| **Total** | | **100** | **0** | |
+| 1 | Nhiệm vụ một — GUI Checklist | 30 | 30 | Thiết kế 42 ca kiểm thử bao phủ đủ bốn khía cạnh, thực thi 100 phần trăm trên SUT thật, chụp 25 ảnh bằng chứng và lập 22 GitHub Issues liên kết |
+| 2 | Nhiệm vụ hai — Usability Evaluation | 40 | 40 | Kịch bản mục tiêu thực tế, đánh giá bảy người thật ngoài ngành với email xác thực, phân tích điểm SUS 62.14 và lập báo cáo chuyên sâu |
+| 3 | Nhiệm vụ ba — Cross-Browser và Cross-Platform | 20 | 20 | Thực thi trên ba nền tảng Chrome, Firefox, Mobile Browser, thu thập 15 ảnh bằng chứng có watermark sinh viên và lập ma trận tương thích |
+| 4 | Kỹ năng Agent Skills | 10 | 10 | Xây dựng hai kỹ năng hoàn chỉnh tái sử dụng được gồm gui-checklist-runner và usability-evaluator kèm hướng dẫn sử dụng và lược đồ tham chiếu |
+| Tổng | Toàn bộ Đồ án | 100 | 100 | Hoàn thành trọn vẹn toàn bộ các yêu cầu của bài tập lớn |
 
 ---
 
-## 3. Directory Structure
+## 3. Cấu trúc Thư mục Dự án
 
-Please refer to the repository layout:
-* `checklists/`: Excel & Markdown GUI checklist items covering IA-01, IA-02, IA-03, IA-04.
-* `reports/`: Main Report, Bug Report, AI Audit Report, AI Critique.
-* `usability/`: Task scenario, participant log, notes for 7 sessions, and survey analysis (SUS/UEQ-S).
-* `cross_platform/`: Execution evidence on Chrome, Firefox, and Safari/Mobile.
-* `evidence/`: Bug screenshots with student watermark and GitHub issues logs.
-* `agent_skills/`: Autonomous agent testing skills and demonstration links.
-* `git_commit_log.txt`: Git commit history per required testing phase.
+- agent_skills: Mã nguồn hai kỹ năng tái sử dụng cho agent kiểm thử
+- checklists:
+  - HW03_GUI_Checklist.xlsx: File Excel checklist chuẩn gồm 3 sheets Checklist 42 items, Test_Summary, Bug_Log 22 lỗi có link GitHub
+  - gui_checklist.md: Bảng Markdown checklist đầy đủ phục vụ tra cứu
+- cross_platform:
+  - desktop_chrome: Chứa 5 ảnh chụp màn hình kiểm thử trên Google Chrome
+  - desktop_firefox: Chứa 5 ảnh chụp màn hình kiểm thử trên Mozilla Firefox
+  - mobile_or_safari: Chứa 5 ảnh chụp màn hình kiểm thử trên Mobile Browser
+- evidence/bug_screenshots: 25 ảnh chụp màn hình chứng minh 22 ca lỗi phát hiện được
+- usability:
+  - participants.md: Danh sách bảy người tham gia thật với email xác thực
+  - raw_responses.csv: Dữ liệu phản hồi khảo sát gốc của bảy người tham gia
+  - session_notes: 7 file nhật ký quan sát cá nhân từ session_P-01 đến session_P-07
+  - survey_instruments: Kịch bản nhiệm vụ và bộ câu hỏi SUS chuẩn hóa
+  - survey_responses: File Excel kết quả sus_results.xlsx và sus_results.md
+- reports:
+  - Main_Report.md: Báo cáo tổng thể tích hợp toàn bộ đồ án nộp bài
+  - Bug_Report.md: Báo cáo chi tiết 22 lỗi phát hiện trên SUT
+  - Usability_Report.md: Báo cáo đánh giá trải nghiệm người dùng chuyên sâu
+  - Cross_Platform_Report.md: Báo cáo ma trận kiểm thử tương thích đa nền tảng
+  - AI_Critique.md: Đoạn văn phản biện trí tuệ nhân tạo bắt buộc
+  - AI_Audit_Report.md: Nhật ký sử dụng trí tuệ nhân tạo bắt buộc
+- scripts: Các mã nguồn kịch bản tự động hóa kiểm thử và xử lý số liệu
