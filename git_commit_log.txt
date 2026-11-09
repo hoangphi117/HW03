@@ -1,9 +1,11 @@
-﻿* bc5d5d1 - (HEAD -> main) docs: add table of contents to main report (1 second ago) <hoangphi117>
-* 6c671a5 - chore: record final git commit log for submission (7 minutes ago) <hoangphi117>
-* 890697e - docs: add main report, ai critique, bug report, and automation scripts (8 minutes ago) <hoangphi117>
-* 1f97c76 - feat: complete cross-platform testing with 15 screenshots and technical report (8 minutes ago) <hoangphi117>
-* 2698490 - feat(usability): complete usability evaluation with 7 participants, sus analysis and session evidence (2 hours ago) <hoangphi117>
-* 6639888 - feat(checklist): add gui checklist and bug screenshot evidence (25 hours ago) <hoangphi117>
-* f7ad1ba - feat(skills): add agent skills for gui-checklist-runner and usability-evaluator (25 hours ago) <hoangphi117>
-* 33f1761 - chore: scaffold project structure and compliance templates for HW03 (35 hours ago) <hoangphi117>
-* 773c611 - first commit (35 hours ago) <hoangphi117>
+﻿* 72ec797 - (HEAD -> main) docs: add jakob nielsen 10 heuristics evaluation to usability task in main report (0 seconds ago) <hoangphi117>
+* 47532d9 - chore: update git log with main report toc commit (11 hours ago) <hoangphi117>
+* bc5d5d1 - docs: add table of contents to main report (11 hours ago) <hoangphi117>
+* 6c671a5 - chore: record final git commit log for submission (11 hours ago) <hoangphi117>
+* 890697e - docs: add main report, ai critique, bug report, and automation scripts (11 hours ago) <hoangphi117>
+* 1f97c76 - feat: complete cross-platform testing with 15 screenshots and technical report (11 hours ago) <hoangphi117>
+* 2698490 - feat(usability): complete usability evaluation with 7 participants, sus analysis and session evidence (14 hours ago) <hoangphi117>
+* 6639888 - feat(checklist): add gui checklist and bug screenshot evidence (2 days ago) <hoangphi117>
+* f7ad1ba - feat(skills): add agent skills for gui-checklist-runner and usability-evaluator (2 days ago) <hoangphi117>
+* 33f1761 - chore: scaffold project structure and compliance templates for HW03 (2 days ago) <hoangphi117>
+* 773c611 - first commit (2 days ago) <hoangphi117>
