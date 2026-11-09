@@ -10,16 +10,18 @@
 - Môn học: Kiểm thử Phần mềm
 - Hệ thống kiểm thử: Ứng dụng thương mại điện tử EShop
 - Luồng nghiệp vụ lựa chọn: Tìm kiếm sản phẩm qua FR-05, Xem chi tiết sản phẩm qua FR-06, Quản lý giỏ hàng qua FR-07, Áp dụng mã giảm giá qua FR-09, Thanh toán đơn hàng qua FR-08, Kiểm tra lịch sử đơn hàng qua FR-11.
+- Repository: https://github.com/hoangphi117/HW03
 
 ---
 
-## Mục Lục Báo Cáo
+## Mục Lục
 
 - [Thông tin Chung](#thông-tin-chung)
+- [Kỹ năng Agent Skills Tự động hóa](#kỹ-năng-agent-skills-tự-động-hóa)
 - [1. Phần một — Thiết kế và Thực thi GUI Checklist](#1-phần-một--thiết-kế-và-thực-thi-gui-checklist)
-  - [1.1. Mục tiêu và Phương pháp luận](#11-mục-tiêu-và-phương-pháp-luận)
+  - [1.1. Mục tiêu](#11-mục-tiêu)
   - [1.2. Thống kê Kết quả Thực thi](#12-thống-kê-kết-quả-thực-thi)
-  - [1.3. Tổng hợp các Lỗi Giao diện Trọng yếu](#13-tổng-hợp-các-lỗi-giao-diện-trọng-yếu)
+  - [1.3. Tổng hợp các Lỗi Giao diện](#13-tổng-hợp-các-lỗi-giao-diện)
 - [2. Phần hai — Đánh giá Trải nghiệm Người dùng](#2-phần-hai--đánh-giá-trải-nghiệm-người-dùng)
   - [2.1. Thiết lập Kịch bản Nhiệm vụ](#21-thiết-lập-kịch-bản-nhiệm-vụ)
   - [2.2. Danh sách Bảy Người tham gia Thực tế](#22-danh-sách-bảy-người-tham-gia-thực-tế)
@@ -34,9 +36,25 @@
 
 ---
 
+## Agent Skills Tự động hóa
+
+Nhằm tối ưu hóa năng suất và chuẩn hóa quy trình kiểm thử giao diện đồ họa, đồ án đã nghiên cứu và phát triển bộ kỹ năng agent_skills chuyên biệt:
+
+- Kỹ năng gui-checklist-runner:
+  - Vị trí lưu trữ: thư mục agent_skills/skills/gui-checklist-runner
+  - Chức năng: Tự động phân tích mã nguồn giao diện, sinh danh mục kiểm thử bao phủ toàn diện 4 khía cạnh, tự động tra cứu điểm mù biên trong file ai-blindspots.md để bổ sung các ca kiểm thử đặc thù và hỗ trợ xuất báo cáo lỗi chuẩn mực.
+  - Video minh chứng thực nghiệm thực tế trên YouTube: https://youtu.be/FbxD5DfM1N8
+  - Video ghi lại quá trình triệu gọi agent skill ở một phiên làm việc độc lập, tự động hóa quy trình sinh 40 ca kiểm thử giao diện đạt chuẩn chỉ với một prompt điều phối duy nhất.
+
+- Kỹ năng usability-evaluator:
+  - Vị trí lưu trữ: thư mục agent_skills/skills/usability-evaluator
+  - Chức năng: Tự động hóa quy trình 6 bước đánh giá trải nghiệm người dùng, từ thiết kế kịch bản hướng mục tiêu, quản lý thông tin ẩn danh người tham gia, tính toán điểm số SUS theo thuật toán chuẩn xác đến tổng hợp báo cáo phân loại mức độ hài lòng.
+
+---
+
 ## 1. Phần một — Thiết kế và Thực thi GUI Checklist
 
-### 1.1. Mục tiêu và Phương pháp luận
+### 1.1. Mục tiêu
 
 Nhiệm vụ thứ nhất tập trung xây dựng bộ danh mục kiểm thử giao diện bao phủ toàn diện bốn khía cạnh giao diện chuẩn mực bao gồm: tiêu chuẩn giao diện chung IA-01, biểu mẫu nhập liệu IA-02, điều hướng luồng người dùng IA-03, và phản hồi trạng thái hệ thống IA-04.
 
@@ -55,7 +73,7 @@ Quy trình kết hợp giữa việc sử dụng trí tuệ nhân tạo để si
   - Số lượng ca kiểm thử không đạt: 22 ca kiểm thử, chiếm tỷ lệ 52.4 phần trăm
   - Tổng số lỗi phát hiện: 22 lỗi thực tế
 
-### 1.3. Tổng hợp các Lỗi Giao diện Trọng yếu
+### 1.3. Tổng hợp các Lỗi Giao diện
 
 Toàn bộ 22 lỗi phát hiện đã được lập thành các GitHub Issues độc lập trên kho lưu trữ mã nguồn và liên kết đầy đủ vào file bảng tính Excel:
 
@@ -95,7 +113,7 @@ Bảy người tham gia đều là người thật ngoài ngành công nghệ th
 - Đánh giá theo thang tính từ Bangor: Mức Poor
 - Tỷ lệ hoàn thành nhiệm vụ: 5 trên 7 người hoàn thành, đạt 71.4 phần trăm
 
-### 2.4. Phân nhóm Điểm đau và Tách biệt Bản chất Lỗi
+### 2.4. Phân nhóm Pain point và Tách biệt Bản chất Lỗi
 
 - Nhóm lỗi kỹ thuật cá biệt:
   - Lỗi thuật toán nhân chiết khấu ngược làm tăng tiền đơn hàng từ hai mươi tám triệu lên bảy trăm triệu đồng

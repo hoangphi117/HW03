@@ -1,4 +1,4 @@
-# Phản biện Trí tuệ Nhân tạo — AI Critique
+# AI Critique
 
 Trong quá trình thực hiện bài tập lớn, trí tuệ nhân tạo thể hiện thế mạnh vượt trội trong việc tạo lập nhanh khung danh mục kiểm thử và sinh mã nguồn tự động hóa. Tuy nhiên, hệ thống bộc lộ nhiều thiên vị và điểm mù nghiêm trọng đối với các tình huống thực tế.
 
